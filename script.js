@@ -1,6 +1,6 @@
 var kilometers = prompt("Quanti kilometri desideri percorrere?");
 var age = prompt("Quanti anni hai?");
-var price = Number(kilometers) * 0,21;
+var price = Number(kilometers) * 0.21;
 var underage = price / 100 * 20;
 var overage = price / 100 * 40;
 
